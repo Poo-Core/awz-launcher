@@ -9,6 +9,16 @@
     "productName": "awz-launcher",
     "version": "0.0.1"
   },
+  "plugins": {
+		"updater": {
+			"active": true,
+			"endpoints": [
+				""
+			],
+			"dialog": true,
+			"pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5L2l5VlNEZlVuZGlvQ3QveW9Icjd5L1BkOWxtYnhoMjQrUzVZZ1dvMmhqNEFBQkFBQUFBQUFBQUFBQUlBQUFBQWxhT21yUzlhaFloTjhkQVAxalBPbEZFUmlQWHYzMzBoQXZJQi9keVUzeno2QmVZTEU4Nmt0QStFRld0WEVWVTM4TzZrQWRYa3M0Y3VHNTNxRU9oajhIaUcwd2I1U1FiZ1BsUm04UUd5WkRGOFhPWlVzeUExYzlzZlNoL0dSWkpGbWw4SjZCQ1lRc2c9Cg=="
+		}
+	},
   "tauri": {
     "allowlist": {
       "all": false,
@@ -40,16 +50,6 @@
         "icons/icon.ico"
       ]
     },
-	"plugins": {
-		"updater": {
-			"active": true,
-			"endpoints": [
-				""
-			],
-			"dialog": true,
-			"pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5L2l5VlNEZlVuZGlvQ3QveW9Icjd5L1BkOWxtYnhoMjQrUzVZZ1dvMmhqNEFBQkFBQUFBQUFBQUFBQUlBQUFBQWxhT21yUzlhaFloTjhkQVAxalBPbEZFUmlQWHYzMzBoQXZJQi9keVUzeno2QmVZTEU4Nmt0QStFRld0WEVWVTM4TzZrQWRYa3M0Y3VHNTNxRU9oajhIaUcwd2I1U1FiZ1BsUm04UUd5WkRGOFhPWlVzeUExYzlzZlNoL0dSWkpGbWw4SjZCQ1lRc2c9Cg=="
-		}
-	},
     "security": {
       "csp": null
     },
