@@ -40,7 +40,7 @@
         "icons/icon.ico"
       ]
     },
-	"tauri": {
+	"plugins": {
 		"updater": {
 			"active": true,
 			"endpoints": [
